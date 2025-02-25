@@ -14,6 +14,7 @@ class Song(models.Model):
     
     duration = models.CharField(max_length=20)  
     # Stores the song duration as a string (e.g., "03:45"), with a max length of 20 characters.
+    paginate_by = 2
 
     def __str__(self):
         return f"{self.title} - {self.artist}"  # Returns a readable string representation of the song.

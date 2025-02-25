@@ -8,3 +8,8 @@ Music Player Using Python and Django
 - **Secure User Authentication:** Ensure user data privacy and personalized preferences with robust authentication.  
 - **Real-Time Lyric Synchronization:** Enhance engagement with precisely timed lyrics matching the music.  
 - **Intuitive User Interface:** Deliver a smooth, interactive, and user-friendly experience.  
+
+For Superuser
+Username: music
+Email address: music@email.com
+Password: 123
