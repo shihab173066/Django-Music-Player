@@ -6,6 +6,7 @@ class Song(models.Model):
     title = models.TextField()  # Stores the title of the song as a text field (not limited in length).
     artist = models.TextField()  # Stores the artist's name as a text field (not limited in length).
     image = models.ImageField()  # Stores the album/song cover image (requires Pillow library for image handling).
+    audio_file = models.FileField(blank=True,null=True)
     audio_link = models.CharField(max_length=200, blank=True, null=True)  
     # Stores an optional external audio link (e.g., YouTube, Spotify) with a max length of 200 characters.
     

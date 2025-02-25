@@ -2,7 +2,7 @@
     outline: none;
 }
 html {
-    background: black;
+    background: rgb(161, 169, 235);
 }
 body {
     margin: 0;
@@ -31,8 +31,8 @@ h3 {
     margin-top: 2%;
     right: 70%;
     border-radius: 0 0 10px 10px;
-    background: transparent linear-gradient(to bottom,rgba(0, 0, 0, 0.9) 50%,rgb(0, 0, 0) 70%) repeat scroll 0 0;
-    box-shadow: 1px 10px 20px 5px #222;
+    background: transparent linear-gradient(to bottom,rgba(128, 124, 124, 0.9) 50%,rgb(141, 138, 138) 70%) repeat scroll 0 0;
+    box-shadow: 1px 10px 20px 5px #2d15b4;
 }
 .cover {
     float: left;
