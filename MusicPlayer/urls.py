@@ -22,7 +22,7 @@ from django.contrib.staticfiles.urls import static  # Used to serve media files 
 
 urlpatterns = [
     path('admin/', admin.site.urls),  # Maps the admin panel to the 'admin/' URL.
-    path('', include('APP.urls'))  # Includes URL patterns from the 'APP' application for the base route.
+    path('', include('soundwaves.urls'))  # Includes URL patterns from the 'APP' application for the base route.
 ]
 
 # Adds static file URL patterns (CSS, JavaScript, images) during development.
