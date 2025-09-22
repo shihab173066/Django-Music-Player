@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-)e(x=71c-mszi)%@*$j*st%56r$tg_7y2cp)ipuny9ey6sug_*
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '.onrender.com'
+    'django-music-player-hrf7.onrender.com',
     'codewithshihab.pythonanywhere.com',
     '127.0.0.1', 
     'localhost'
@@ -35,7 +35,7 @@ ALLOWED_HOSTS = [
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8000',
-    'https://todoapp-wego.onrender.com',
+    'https://django-music-player-hrf7.onrender.com',
 ]
 
 # Application definition
